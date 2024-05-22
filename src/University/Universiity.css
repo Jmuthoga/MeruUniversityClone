@@ -1,0 +1,28 @@
+.campus {
+  margin: 80px auto;
+  width: 90%;
+  text-align: center;
+}
+.galley {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 40px;
+}
+
+.galley img {
+  width: 23%;
+  border-radius: 10px;
+  margin-right: 30px;
+}
+
+/* media query */
+@media (max-width: 800px) {
+  .galley {
+    flex-wrap: wrap;
+  }
+  .galley img {
+    width: 48%;
+    margin-bottom: 25px;
+  }
+}
